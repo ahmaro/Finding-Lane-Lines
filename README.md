@@ -16,15 +16,15 @@ Defined a class that contains the functions and the procedures to pipeline the i
 The Piplines sequence is handling every image given and is described as the following:
 
 1. The image is being read and the shape of it is taken into the consideration.
-![Original Image](test_images\whiteCarLaneSwitch.jpg)
+![Original Image](test_images/whiteCarLaneSwitch.jpg)
 2. The image is then grayscaled using the CV2 color conversion and blurred.
-![Blurred Grayscaled](test_images_output_blur\whiteCarLaneSwitch.jpg)
+![Blurred Grayscaled](test_images_output_blur/whiteCarLaneSwitch.jpg)
 3. A high and low threshold of the Canny are set.
-![The image in Canny](test_images_output_canny\whiteCarLaneSwitch.jpg)
+![The image in Canny](test_images_output_canny/whiteCarLaneSwitch.jpg)
 4. The region of interest is framed of where the lanes are in the direction of the driveway and the rest is masked out.
-![Region of the Forward Lanes](test_images_output_interest\whiteCarLaneSwitch.jpg)
+![Region of the Forward Lanes](test_images_output_interest/whiteCarLaneSwitch.jpg)
 5. The hough lines are then processed and weighted.
-![The final Output](test_images_output\whiteCarLaneSwitch.jpg)
+![The final Output](test_images_output/whiteCarLaneSwitch.jpg)
 
 
 ### Shortcomings
